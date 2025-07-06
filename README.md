@@ -169,7 +169,20 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  <div class="products" id="products"></div>
+  <div class="products" id="products">
+    <div class="product">
+      <img src="https://i.postimg.cc/PqQtRdjc/Screenshot-2025-07-06-134417.png" alt="Latest Attractive Men Casual Shoes">
+      <h3>Latest Attractive Men Casual Shoes</h3>
+      <p>₹449 - Stylish white sneakers with feather design, ideal for everyday wear.</p>
+      <button onclick="addToCart('Latest Attractive Men Casual Shoes - ₹449')">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://i.postimg.cc/q7z63mCg/Screenshot-2025-07-06-135525.png" alt="Advantair Black Sneakers">
+      <h3>Advantair Black Sneakers</h3>
+      <p>₹499 - Lightweight black mesh sneakers with bold Advantair branding. Stylish & breathable.</p>
+      <button onclick="addToCart('Advantair Black Sneakers - ₹499')">Add to Cart</button>
+    </div>
+  </div>
 
   <div id="cart">
     <h2>Your Cart</h2>
@@ -250,8 +263,7 @@
         <img src="${img}" alt="${name}">
         <h3>${name}</h3>
         <p>₹${price} - ${desc}</p>
-        <button onclick="addToCart('${name} - ₹${price}')">Add to Cart</button>
-      `;
+        <button onclick="addToCart('${name} - ₹${price}')">Add to Cart</button>`;
 
       productsDiv.appendChild(productBox);
 
@@ -273,3 +285,5 @@
   </script>
 </body>
 </html>
+
+
