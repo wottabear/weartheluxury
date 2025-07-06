@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -269,34 +270,6 @@
         alert('Incorrect password.');
       }
     }
-
-    const sampleProducts = [
-      {
-        name: 'Runner One',
-        price: '999',
-        desc: 'Lightweight sneakers for daily hustle',
-        img: 'https://images.unsplash.com/photo-1584467735871-bfb5b1c5223d?auto=format&fit=crop&w=800&q=80'
-      },
-      {
-        name: 'Flex Hoodie',
-        price: '1199',
-        desc: 'Premium streetwear hoodie',
-        img: 'https://images.unsplash.com/photo-1584466991124-74f944c52d80?auto=format&fit=crop&w=800&q=80'
-      }
-    ];
-
-    sampleProducts.forEach(p => {
-      const box = document.createElement('div');
-      box.className = 'product';
-      box.innerHTML = `
-        <img src="${p.img}" alt="${p.name}">
-        <h3>${p.name}</h3>
-        <p>₹${p.price} - ${p.desc}</p>
-        <button onclick="addToCart('${p.name} - ₹${p.price}')">Add to Cart</button>
-      `;
-      productsDiv.appendChild(box);
-    });
   </script>
 </body>
 </html>
-ding wear_the_luxury_store (4).html…]()
