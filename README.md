@@ -182,6 +182,12 @@
       <p>₹499 - Lightweight black mesh sneakers with bold Advantair branding. Stylish & breathable.</p>
       <button onclick="addToCart('Advantair Black Sneakers - ₹499')">Add to Cart</button>
     </div>
+    <div class="product">
+      <img src="https://i.postimg.cc/RVFy8Yn3/Screenshot-2025-07-09-210846.png" alt="HI Black T-shirt">
+      <h3>HI Black T-shirt</h3>
+      <p>₹799 - Premium black tee with HI design, ultimate streetwear vibe.</p>
+      <button onclick="addToCart('HI Black T-shirt - ₹799')">Add to Cart</button>
+    </div>
   </div>
 
   <div id="cart">
@@ -285,5 +291,6 @@
   </script>
 </body>
 </html>
+
 
 
